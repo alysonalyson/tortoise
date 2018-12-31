@@ -66,6 +66,7 @@ header {
 
 main {
   padding-top: 3rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -130,4 +131,22 @@ main {
   padding-top: 1rem;
   font-size: 1rem;
   line-height: 1.4;
+}
+
+footer .container {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+
+footer h4 {
+  display: inline;
+  line-height: 1.5;
 }
