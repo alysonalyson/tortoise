@@ -52,6 +52,10 @@ body {
   padding-left: 2rem;
 }
 
+#menu {
+  display: none;
+}
+
 #banner {
   margin-top: 10rem;
   padding-right: 7rem;

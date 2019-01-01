@@ -1,4 +1,4 @@
-@media only screen and (min-width: 471px) and (max-width:1024px) {
+@media only screen and (min-width: 671px) and (max-width:1024px) {
   .container {
     max-width: 100%;
   }
@@ -27,5 +27,39 @@
 
   main {
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .nav h4 {
+    display: none;
+  }
+
+  .navlink {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  #banner {
+    justify-content: center;
+  }
+
+  #banner h1 {
+    width: 100%;
+  }
+
+  .icon-row {
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .tile {
+    width: 100%;
   }
 }
